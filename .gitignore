@@ -1,0 +1,9 @@
+__pycache__/
+
+/dist_root/
+
+src/data/
+src/treasurehunt
+
+*.swp
+.venv/

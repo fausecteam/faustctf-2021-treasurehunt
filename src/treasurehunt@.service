@@ -1,0 +1,12 @@
+[Unit]
+Description=FAUST CTF Treasure Hunt
+
+[Service]
+ExecStart=-/usr/bin/stdbuf -o0 /srv/treasurehunt/treasurehunt
+WorkingDirectory=/srv/treasurehunt
+StandardInput=socket
+StandardOutput=socket
+User=treasurehunt
+LimitNPROC=100
+LimitCPU=60
+PrivateTmp=yes

@@ -1,0 +1,9 @@
+[Unit]
+Description=FAUST CTF Treasure Hunt
+
+[Socket]
+ListenStream=12321
+Accept=true
+
+[Install]
+WantedBy=sockets.target
